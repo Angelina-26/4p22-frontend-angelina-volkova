@@ -15,10 +15,12 @@ h1 {
     border-color: darkgreen;
     border-style:solid;
     border-radius:20px;
-    background-image:url(banana.jpg);
+    background-image:url(Banana.jpg);
     background-size:100%;
     background-repeat:no-repeat;
     box-shadow: 4px 4px 4px 0px #0000007a;
+    display:flex;
+    flex-direction:column;
     
 }
 .box-grape {
@@ -34,6 +36,8 @@ h1 {
     background-size:100%;
     background-repeat:no-repeat;
     box-shadow: 4px 4px 4px 0px #0000007a;
+    display:flex;
+    flex-direction:column;
 }
 .box-peaches {
     width: 200px;
@@ -48,6 +52,9 @@ h1 {
     background-size:100%;
     background-repeat:no-repeat;
     box-shadow: 4px 4px 4px 0px #0000007a;
+    display:flex;
+    flex-direction:column;
+    
 }
 .box-kiwi {
     width: 200px;
@@ -62,6 +69,8 @@ h1 {
     background-size:110%;
     background-repeat:no-repeat;
     box-shadow: 4px 4px 4px 0px #0000007a;
+    display:flex;
+    flex-direction:column;
 }
 .box-oranges {
     width: 200px;
@@ -75,8 +84,9 @@ h1 {
     background-image:url(oranges.jpg);
     background-size:90%;
     background-repeat:no-repeat;
-    box-shadow: 4px 4px 4px 0px #0000007a;
-    
+    box-shadow: 4px 4px 4px 0px #0000007a; 
+    display:flex;
+    flex-direction:column; 
    
 }
 .box-apples {
@@ -91,7 +101,9 @@ h1 {
     background-image:url(apples.jpg);
     background-size:90%;
     background-repeat:no-repeat;
-    box-shadow: 4px 4px 4px 0px #0000007a;   
+    box-shadow: 4px 4px 4px 0px #0000007a; 
+    display:flex;
+    flex-direction:column;  
 }
 .box-pears {
     width: 200px;
@@ -103,9 +115,11 @@ h1 {
     border-style:solid;
     border-radius:20px;
     background-image:url(pears.jpg);
-    background-size:75%;
+    background-size:70%;
     background-repeat:no-repeat;
     box-shadow: 4px 4px 4px 0px #0000007a;
+    display:flex;
+    flex-direction:column;
 }
 .box-mandarins {
     width: 200px;
@@ -120,6 +134,8 @@ h1 {
     background-size:80%;
     background-repeat:no-repeat;
     box-shadow: 4px 4px 4px 0px #0000007a;
+    display:flex;
+    flex-direction:column;
 }
 .box-persimmon {
     width: 200px;
@@ -133,7 +149,9 @@ h1 {
     background-image:url(persimmon.jpg);
     background-size:100%;
     background-repeat:no-repeat;
-    box-shadow: 4px 4px 4px 0px #0000007a;    
+    box-shadow: 4px 4px 4px 0px #0000007a;   
+    display:flex;
+    flex-direction:column; 
 }
 .box-ananas {
     width: 200px;
@@ -148,6 +166,8 @@ h1 {
     background-size:100%;
     background-repeat:no-repeat;
     box-shadow: 4px 4px 4px 0px #0000007a;
+    display:flex;
+    flex-direction:column;
     
 }
 .box-lemon {
@@ -163,6 +183,8 @@ h1 {
     background-size:90%;
     background-repeat:no-repeat;
     box-shadow: 4px 4px 4px 0px #0000007a;
+    display:flex;
+    flex-direction:column;
 }
 .box-avocado {
     width: 200px;
@@ -177,6 +199,8 @@ h1 {
     background-size:90%;
     background-repeat:no-repeat;
     box-shadow: 4px 4px 4px 0px #0000007a;
+    display:flex;
+    flex-direction:column;
     
 }    
 .container {
@@ -189,20 +213,26 @@ h1 {
     }
 .name {
     padding-top:105px;
-    padding-left:40px;
     font-family:monospace;
     font-size:30px;
     color:darkgreen;
+    align-self: center;
+       
 }
 .button {
     border-radius: 15px;
-    margin-left:35px;
+    margin-left:25px;
+    margin-right:25px;
+    margin-bottom: 5px;
     font-size:25px; 
     background-color: darkgreen;  
     color:white;  
+    display:flex;
+    flex-direction:column;
 }
 .price {
     margin-left:60px;
+    margin-top:15px;
     font-size:29px;   
     color:darkred;
 }
