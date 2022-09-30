@@ -1,0 +1,249 @@
+h1 {
+    color:darkgreen; 
+    margin-left: 600px;
+    font-family:monospace; 
+    font-size: 60px;
+}
+
+
+.box-banana {
+    width: 200px;
+    height:320px;
+    border: 2px; solid;
+    background-color:white;
+    border-width: 3px;
+    border-color: darkgreen;
+    border-style:solid;
+    border-radius:20px;
+    background-image:url(banana.jpg);
+    background-size:100%;
+    background-repeat:no-repeat;
+    box-shadow: 4px 4px 4px 0px #0000007a;
+    
+}
+.box-grape {
+    width: 200px;
+    height:320px;
+    border: 2px; solid;
+    background-color:white;
+    border-width: 3px;
+    border-color: darkgreen;
+    border-style:solid;
+    border-radius:20px;
+    background-image:url(grape.jpg);
+    background-size:100%;
+    background-repeat:no-repeat;
+    box-shadow: 4px 4px 4px 0px #0000007a;
+}
+.box-peaches {
+    width: 200px;
+    height:320px;
+    border: 2px; solid;
+    background-color:white;
+    border-width: 3px;
+    border-color: darkgreen;
+    border-style:solid;
+    border-radius:20px;
+    background-image:url(peaches.jpg);
+    background-size:100%;
+    background-repeat:no-repeat;
+    box-shadow: 4px 4px 4px 0px #0000007a;
+}
+.box-kiwi {
+    width: 200px;
+    height:320px;
+    border: 2px; solid;
+    background-color:white;
+    border-width: 3px;
+    border-color: darkgreen;
+    border-style:solid;
+    border-radius:20px;
+    background-image:url(kiwi.jpg);
+    background-size:110%;
+    background-repeat:no-repeat;
+    box-shadow: 4px 4px 4px 0px #0000007a;
+}
+.box-oranges {
+    width: 200px;
+    height:320px;
+    border: 2px; solid;
+    background-color:white;
+    border-width: 3px;
+    border-color: darkgreen;
+    border-style:solid;
+    border-radius:20px;
+    background-image:url(oranges.jpg);
+    background-size:90%;
+    background-repeat:no-repeat;
+    box-shadow: 4px 4px 4px 0px #0000007a;
+    
+   
+}
+.box-apples {
+    width: 200px;
+    height:320px;
+    border: 2px; solid;
+    background-color:white;
+    border-width: 3px;
+    border-color: darkgreen;
+    border-style:solid;
+    border-radius:20px;
+    background-image:url(apples.jpg);
+    background-size:90%;
+    background-repeat:no-repeat;
+    box-shadow: 4px 4px 4px 0px #0000007a;   
+}
+.box-pears {
+    width: 200px;
+    height:320px;
+    border: 2px; solid;
+    background-color:white;
+    border-width: 3px;
+    border-color: darkgreen;
+    border-style:solid;
+    border-radius:20px;
+    background-image:url(pears.jpg);
+    background-size:75%;
+    background-repeat:no-repeat;
+    box-shadow: 4px 4px 4px 0px #0000007a;
+}
+.box-mandarins {
+    width: 200px;
+    height:320px;
+    border: 2px; solid;
+    background-color:white;
+    border-width: 3px;
+    border-color: darkgreen;
+    border-style:solid;
+    border-radius:20px;
+    background-image:url(mandarins.jpg);
+    background-size:80%;
+    background-repeat:no-repeat;
+    box-shadow: 4px 4px 4px 0px #0000007a;
+}
+.box-persimmon {
+    width: 200px;
+    height:320px;
+    border: 2px; solid;
+    background-color:white;
+    border-width: 3px;
+    border-color: darkgreen;
+    border-style:solid;
+    border-radius:20px;
+    background-image:url(persimmon.jpg);
+    background-size:100%;
+    background-repeat:no-repeat;
+    box-shadow: 4px 4px 4px 0px #0000007a;    
+}
+.box-ananas {
+    width: 200px;
+    height:320px;
+    border: 2px; solid;
+    background-color:white;
+    border-width: 3px;
+    border-color: darkgreen;
+    border-style:solid;
+    border-radius:20px;
+    background-image:url(ananas.jpg);
+    background-size:100%;
+    background-repeat:no-repeat;
+    box-shadow: 4px 4px 4px 0px #0000007a;
+    
+}
+.box-lemon {
+    width: 200px;
+    height:320px;
+    border: 2px; solid;
+    background-color:white;
+    border-width: 3px;
+    border-color: darkgreen;
+    border-style:solid;
+    border-radius:20px;
+    background-image:url(lemon.jpg);
+    background-size:90%;
+    background-repeat:no-repeat;
+    box-shadow: 4px 4px 4px 0px #0000007a;
+}
+.box-avocado {
+    width: 200px;
+    height:320px;
+    border: 2px; solid;
+    background-color:white;
+    border-width: 3px;
+    border-color: darkgreen;
+    border-style:solid;
+    border-radius:20px;
+    background-image:url(avocado.jpg);
+    background-size:90%;
+    background-repeat:no-repeat;
+    box-shadow: 4px 4px 4px 0px #0000007a;
+    
+}    
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 10px; 
+    column-gap: 40px;
+    margin-left: 15px;
+    margin-top: 10px;
+    }
+.name {
+    padding-top:105px;
+    padding-left:40px;
+    font-family:monospace;
+    font-size:30px;
+    color:darkgreen;
+}
+.button {
+    border-radius: 15px;
+    margin-left:35px;
+    font-size:25px; 
+    background-color: darkgreen;  
+    color:white;  
+}
+.price {
+    margin-left:60px;
+    font-size:29px;   
+    color:darkred;
+}
+
+.header {
+    background-image:url(lemons.jpg);
+    background-size:100%;
+    background-repeat:no-repeat;
+}
+.footer {
+    background-image:url(trava.jpg);
+    background-size:25%; 
+   
+}
+.name-header {
+    color:yellow;
+    font-size: 20px;
+    font-family:monospace;
+    margin-bottom:0.5;
+    border style:solid;
+    border-radius:10px;
+    background-color:rgba(0,128,0,0.5);
+    height:30px;
+    
+    
+}
+
+.link {
+    color:darkgreen;
+    font-weight:bold   
+}
+
+.container2 {
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+    flex-wrap:wrap;
+}
+
+
+
+
+
+
