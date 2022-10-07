@@ -9,6 +9,7 @@
     width:100%;
     height: 75px;
     font-family:'Roboto', sans-serif;
+    z-index:100;
 }
 .common-h1{
 font-family: 'Roboto';
@@ -40,7 +41,8 @@ padding-bottom: 10px;
 }
 
 .common-section-list{
-    
+    position: relative;
+    z-index: 10;
     font-size: 28px;
     font-family: 'Roboto', sans-serif;
 }
