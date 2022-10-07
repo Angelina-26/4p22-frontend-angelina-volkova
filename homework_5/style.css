@@ -23,17 +23,14 @@ padding-bottom: 10px;
 }
 .common-section{
     position:relative;
-    display: flex;
-    flex-direction:column;
     padding-top:100px;
     padding-left:500px;
     font-size:28px;
     font-family: 'Roboto';
 }
 .common-section__letter{
-   
    position:sticky;
-   top: 105px;
+   top: 130px;
     background-color: #590BFF;
     color:white;
     height:41px;
@@ -43,22 +40,33 @@ padding-bottom: 10px;
 }
 
 .common-section-list{
+    
     font-size: 28px;
     font-family: 'Roboto', sans-serif;
 }
 .common-section__side{
     position:fixed;
-    top:100px;
-    left:20px;
+    top:130px;
+    left: 20px;
     font-family: 'Roboto',sans-serif;
 
 }
 .common-section__side-heading{
     font-family: 'Roboto'sans-serif;
     font-size: 28px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 33px;
+   padding-left: 40px;
 }
 
 .common-section__side-link{
     color:#FF710B;
     font-family: 'Roboto',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    text-decoration-line: underline;
 }
