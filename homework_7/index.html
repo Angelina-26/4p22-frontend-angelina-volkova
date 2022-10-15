@@ -10,15 +10,20 @@
 <body>
     <form class="auth">
         <h1 class="auth__heading">Вход</h1>
-        <div class="auth__inputs"><label class="auth__email" for="email">Email</label>    
-        <input class="auth__input" id="email" name="email" type="email" placeholder="Введите email">
-        <label class="auth__password" id="password">Пароль</label>
-        <input class="auth__input" id="password" name="password" type="password" placeholder="Введите пароль"></div>
+
+        <div class="auth__inputs">
+            <label class="auth__email" for="email">Email</label>    
+            <input class="auth__input" id="email" name="email" type="email" placeholder="Введите email">
+            <label class="auth__password" id="password">Пароль</label>
+            <input class="auth__input" id="password" name="password" type="password" placeholder="Введите пароль">
+        </div>
     
-        <div class="input_checkbox"><input class="checkbox" id="checkbox" name="checkbox" type="checkbox" value="true">
-            <label class="checkbox__label" for="checkbox">Я согласен получать обновления на почту</label></div>
+        <div class="auth__checkbox">
+        <input class="checkbox" id="checkbox" name="checkbox" type="checkbox" value="true">
+            <label class="checkbox__label" for="checkbox">Я согласен получать обновления на почту</label>
+        </div>
         
-            <div class="button"><button class="auth__button">Войти</button></div>  
+            <button class="auth__button">Войти</button>
     </form>
 </body>
 </html>
