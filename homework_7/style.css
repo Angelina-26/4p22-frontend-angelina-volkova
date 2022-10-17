@@ -28,6 +28,7 @@ border-radius: 20px;
     font-weight: 700;
     font-size:50px;
     line-height: 50px;
+    margin-top: 26px;
     
     
 }
@@ -43,15 +44,15 @@ border-radius: 20px;
 .auth__input {
    
     box-sizing: border-box;
+    padding: 0px 10px;
     row-gap: 32px;
     background: #FFFFFF;
     border: 2px solid #787878;
     border-radius: 10px;
     height:49px;
     width: 509px;
-    padding-left:45px;
     top:0px;
-    color:#CCCCCC;
+    color:#787878;
     font-size: 28px;
     font-style: normal;
     font-weight: 600;
@@ -111,6 +112,7 @@ padding-top: 16px;
 }
 
 .auth__checkbox1-label {
+
     font-family: 'Roboto';
     font-size: 14px;
     font-weight: 400;
@@ -132,6 +134,9 @@ padding-top: 16px;
 .auth__checkbox input:checked + .auth__checkbox1-label::before {
     background: #FFFFFF;
 }
+
+.auth__input::-webkit-input-placeholder { color: #CCCCCC; }
+
     @media screen and (max-width:768px) and (min-width:320px) {
         .auth {
             width: 728px;
@@ -143,8 +148,23 @@ padding-top: 16px;
         .auth__button {
             width: 220px;
             height: 80px;
-            padding-left: 64px;
-            padding-top: 32px;
+            padding-left: 254px;
+            padding-bottom: 242px;
             font-size: 32px;
+        }
+        .auth__password {
+            font-size: 24px; 
+        }
+
+        .auth__email {
+            font-size: 24px;
+        }
+
+        .auth__input {
+            width: 638px;
+            height: 49px; 
+        }
+        .auth__heading {
+            font-size: 60px;
         }
     }
