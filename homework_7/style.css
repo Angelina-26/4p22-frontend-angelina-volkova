@@ -127,17 +127,17 @@ padding-top: 16px;
     margin-right: 15px;
     border: 2px solid #787878;
     border-radius: 7px;
-    background: url(mark.png);
+    background:url(mark.png);
     background-size: 100%;
     
 }
 .auth__checkbox input:checked + .auth__checkbox1-label::before {
-    background: #FFFFFF;
+    background: white;
 }
 
 .auth__input::-webkit-input-placeholder { color: #CCCCCC; }
 
-    @media screen and (max-width:768px) and (min-width:320px) {
+    @media screen and (min-width:320px) and (max-width:768px) {
         .auth {
             width: 728px;
             height: 697px;
@@ -167,4 +167,8 @@ padding-top: 16px;
         .auth__heading {
             font-size: 60px;
         }
+        .checkbox__label {
+            font-size: 18px;
+        }
+
     }
