@@ -139,10 +139,10 @@ padding-top: 16px;
 
     @media screen and (min-width:320px) and (max-width:768px) {
         .auth {
-            width: 728px;
-            height: 697px;
-            margin-top: 20px;
-            margin-left: 20px;
+            width: 100%;
+           
+            margin-top: 0px;
+            margin-left: 0px;
         }
 
         .auth__button {
