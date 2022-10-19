@@ -139,8 +139,9 @@ padding-top: 16px;
 
     @media screen and (min-width:320px) and (max-width:768px) {
         .auth {
-           width:calc(728 / 768 * 100vw);
-           height:calc(697 / 768 * 100vw);
+           /*width:calc(728 / 768 * 100vw);
+           height:calc(697 / 768 * 100vw);*/
+           width: 100%;
            margin: 0 auto;
         }
 
@@ -160,11 +161,12 @@ padding-top: 16px;
         }
 
         .auth__input {
-            width: calc(638 / 768 * 100vw);
-            height: calc(49 / 768 * 100vw);
+            /*width: calc(638 / 768 * 100vw);
+            height: calc(49 / 768 * 100vw);*/
+            width: 100%;
             padding-right: calc(65 / 768 * 100vw);
             margin-right:calc(45 / 768 * 100vw);
-            font-size: calc(24 / 768*100vw);
+            font-size: 24px;
         }
         .auth__heading {
             font-size: calc(60 / 768 * 100vw);
@@ -174,11 +176,10 @@ padding-top: 16px;
         }
         .auth__inputs {
             padding: 0 20px;
-        
         }
 
         .auth__checkbox1-label {
-           font-size: calc(18 / 768 * 100vw);
+           font-size: 18px;
         }
         }
 
