@@ -141,7 +141,7 @@ padding-top: 16px;
         .auth {
            width:calc(728 / 768 * 100vw);
            height:calc(697 / 768 * 100vw);
-           margin: 0 auto;;
+           margin: 0 auto;
         }
 
         .auth__button {
@@ -162,7 +162,8 @@ padding-top: 16px;
         .auth__input {
             width: calc(638 / 768 * 100vw);
             height: calc(49 / 768 * 100vw);
-            padding-right: calc(45 / 768 * 100vw);
+            padding-right: calc(65 / 768 * 100vw);
+            margin-right:calc(45 / 768 * 100vw);
             font-size: calc(24 / 768*100vw);
         }
         .auth__heading {
@@ -172,7 +173,8 @@ padding-top: 16px;
             font-size: 18px;
         }
         .auth__inputs {
-        padding-right: calc(45 / 768 * 100vw);
+            padding: 0 20px;
+        
         }
 
         .auth__checkbox1-label {
