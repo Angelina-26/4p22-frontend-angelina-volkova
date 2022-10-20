@@ -1,0 +1,42 @@
+* {
+    box-sizing: border-box;
+}
+
+.header {
+    display: flex;
+    justify-content:space-between;
+    margin: 20px;
+}
+.header__left {
+    display: flex;
+    column-gap: 35px;
+    padding-top: 10px;
+}
+
+.header__right {
+    display:flex;
+    column-gap: 35px;
+    padding-top: 10px;
+}
+
+
+.header__heading {
+    font-size:36px;
+    font-family: 'Inter';
+    font-style: bold;
+    color: #787878;
+    margin-top: 8px;
+}
+
+.header__logo {
+    width: 222px;
+    height: 50px;
+}
+
+.header__link {
+    font-size: 24px;
+    font-family: 'Inter';
+    font-style: bold;
+    color: #787878;
+    text-decoration: none;
+}
