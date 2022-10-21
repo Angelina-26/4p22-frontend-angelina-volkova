@@ -270,8 +270,8 @@
 .reg__about-checkbox > input:checked + label::before {
     content:'';
     background:#787878;
-    height: 24px;
-    width: 24px;
+    height: 18px;
+    width: 18px;
 }
 
 .reg__button {
