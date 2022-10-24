@@ -60,7 +60,6 @@
     font-family: 'Roboto';
     background: #FFFFFF;
     box-shadow: 0px 0px 40px 10px rgba(0, 0, 0, 0.25);
-   
 }
 
 .auth__heading {
@@ -153,12 +152,13 @@
     .header__left {
         column-gap: calc(35 / 768 * 100vw);
         padding-top: calc(10 / 768 * 100vw);
+        padding-left: calc(10 / 768 * 100vw);
     }
     
     .header__right {
-        display:flex;
         column-gap: calc(35 / 768 * 100vw);
         padding-top: calc(10 / 768 * 100vw);
+        padding-right: calc(10 / 768 * 100vw);
     }
 
     .header__logo {
@@ -166,9 +166,13 @@
         height: calc(50 / 768 * 100vw);
     }
 
+    .header-link {
+        font-size: calc(24 / 768 * 100vw);
+    }
+
     .auth {
         width: 100%;
-        height: calc(383 / 768 * 100vw);
+        height: calc(450 / 768 * 100vw);
         margin: 0 auto;
         margin-top: calc(200 / 768 * 100vw);
      }
@@ -180,15 +184,13 @@
      }
 
      .auth__button {
-         width: calc(180 / 768 * 100vw);
-         height: calc(52 / 768 * 100vw);
-         font-size: calc(25 / 768 * 100vw);
-         margin-top: calc(32 / 768 * 100vw);
-         margin-left: calc(210 / 768 * 100vw);
-     
-       
+        width: calc(180 / 768 * 100vw);
+        height: calc(52 / 768 * 100vw);
+        font-size: calc(25 / 768 * 100vw);
+        margin: auto;
+        margin-top: calc(32 / 768 * 100vw);
         
-     }
+    }
 
      .auth__password {
          font-size: calc(24 / 768*100vw);
@@ -200,11 +202,8 @@
 
      .auth__input {
          width: 100%;
-         padding-right: calc(65 / 768 * 100vw);
-         margin-right:calc(45 / 768 * 100vw);
          font-size: calc(24 / 768 * 100vw);
-         width: calc(509 / 768 * 100vw);
-         height: calc(49 / 768 * 100vw);
+        
      }
      .auth__heading {
          font-size: calc(60 / 768 * 100vw);
@@ -213,7 +212,9 @@
          font-size: calc(18 / 768 * 100vw);
      }
      .auth__inputs {
-        
+        width: 100%;
+        padding-right: calc(46 / 768 * 100vw);
+        row-gap: calc(9 / 768 * 100vw);
      }
 
      .auth__checkbox1-label {
