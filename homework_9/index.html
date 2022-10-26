@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css" type="text/css">
-    <script scr="script.js"></script>
+   
     <title>Calculator</title>
 </head>
 <body>
@@ -14,18 +14,19 @@
 
     <div class="form__inputs">
         <label for="number1"></label>
-        <input class ="form__input" id="number1" placeholder="Введите число"> 
+        <input class="form__input1" id="number1" type="text"  placeholder="Введите число"> 
 
-        <label for="number1"></label>
-        <input class ="form__input" id="number1"> 
+        <label for="operator"></label>
+        <input class="form__input2" id="operator" type="text"> 
     
-        <label for="number1"></label>
-        <input class ="form__input" id="number1" placeholder="Введите число"> 
+        <label for="number2"></label>
+        <input class="form__input3" id="number2" type="text" placeholder="Введите число"> 
     </div>
+        <button class="form__button">Результат</button>
 
-    <button class="form__button">Результат</button>
+        <div class="result"></div>
 
     </form>
-    
+    <script src="script.js"></script> 
 </body>
 </html>
