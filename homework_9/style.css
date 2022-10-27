@@ -67,3 +67,15 @@
     border-radius: 10px;
     
 }
+
+.form__result {
+    align-self: center;
+    margin-top: 20px;
+    width: 100px;
+    height: 30px;
+    border-radius: 10px;
+    border-style: solid;
+    background-color:white;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+
+}
