@@ -12,35 +12,36 @@ btn.addEventListener('click', function () {
     let res;
     console.log(val1, '.form__input1', secondArgument.value, val2, typeof val2);
 
+
 if (typeof val1 === 'number' && typeof val2 === 'number') {
     switch (operator.value) {
         case "+":
             res = val1 + val2;
             console.log(res);
             result.innerHTML = res;
-            alert(res);
             break;
         case "-":
-            result = val1 - val2;
+            res = val1 - val2;
             console.log(res);
-            alert(res);
+            result.innerHTML = res;
             break;
         case "/":
-            result = val1 / val2;
+            res = val1 / val2;
             console.log(res);
-            alert(res);
+            result.innerHTML = res;
             break;
         case "*":
-            result = val1 * val2;
+            res = val1 * val2;
             console.log(res);
-            alert(res);
+            result.innerHTML = res;
             break;       
 
     }
 } else {
     console.log ('Некорректный ввод чисел')
     alert ('Некорректный ввод чисел')
-}
+} 
+
 
 })
 
