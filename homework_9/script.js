@@ -42,22 +42,22 @@ btn.addEventListener('click', function (e) {
 
 if (typeof val1 === 'number' && typeof val2 === 'number') {
     switch (operator.value) {
-        case "+":
+        case '+':
             res = val1 + val2;
             console.log(res);
             form__result.innerHTML = res;
             break;
-        case "-":
+        case '-':
             res = val1 - val2;
             console.log(res);
             form__result.innerHTML = res;
             break;
-        case "/":
+        case '/':
             res = val1 / val2;
             console.log(res);
             form__result.innerHTML = res;
             break;
-        case "*":
+        case '*':
             res = val1 * val2;
             console.log(res);
             form__result.innerHTML = res;
@@ -67,8 +67,13 @@ if (typeof val1 === 'number' && typeof val2 === 'number') {
             form__result.innerHTML = 'Не введен знак'; 
             break;  
         default: return form__result.innerHTML = 'Программа не поддерживает такую операцию',
-        console.log('Программа не поддерживает такую операцию');   
+        console.log('Программа не поддерживает такую операцию'); 
     }    
 } 
+
+if (res === Infinity) {
+    form__result.innerHTML = 'Операция некорректна';
+    return console.log('Операция некорректна');
+}
 })
 
