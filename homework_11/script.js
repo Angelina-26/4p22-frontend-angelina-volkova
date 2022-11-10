@@ -2,7 +2,7 @@
 
 let userData = [];
 
-fetch('https://reqres.in/api/users?page=2')
+fetch('https://reqres.in/api/users?per_page=12')
     .then((response) => response.json())
     .then((response) => {
         userData = response.data;
@@ -18,7 +18,7 @@ fetch('https://reqres.in/api/users?page=2')
     })
       // point 3
     let persons = [];
-       fetch('https://reqres.in/api/users?page=2')
+    fetch('https://reqres.in/api/users?per_page=12')
       .then((response) => response.json())
       .then((response) => {
         persons = response.data;
@@ -28,3 +28,14 @@ fetch('https://reqres.in/api/users?page=2')
          },'Наша база содержит данные следующих пользователей:' );
         console.log(reducedArray);
       })
+
+      let keyNames = []; 
+      fetch('https://reqres.in/api/users?per_page=12') 
+      .then ((response) => response.json())
+      .then ((response) => {
+          keyNames = response.data;
+          const User = keyNames[0]
+          Object.keys(User).forEach((userKey) => {
+            console.log(userKey);
+          })
+        })
