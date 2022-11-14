@@ -97,8 +97,6 @@
 }
 
 .reg__email {
-    width: 40px;
-    height: 16px;
     left: 45px;
     top: -19px;
     font-family: 'Roboto';
@@ -226,6 +224,20 @@ background-color: #787878;
     font-weight: 700;
     font-family: 'Roboto';
 }
+
+.red {
+    border: 2px solid #EE2424;
+}
+
+.error {
+    display: none;
+    color:#EE2424;
+    font-size: 16px;
+    font-weight: 700;
+    margin-left: 260px;
+}
+
+
 
 @media screen and (min-width:320px) and (max-width:768px) {
 

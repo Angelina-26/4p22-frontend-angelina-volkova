@@ -33,7 +33,10 @@
         <h1 class="reg__heading">Регистрация</h1>
 
         <div class="reg__inputs">
-            <label class="reg__email" for="email">*Email</label>    
+        <div class="labels">
+            <label class="reg__email" for="email">* Email</label> 
+            <label class="error" for="email">Email введен некорректно</label> 
+        </div> 
             <input class="reg__input" id="email" name="email" type="email" placeholder="Введите email">
             <label class="reg__password" id="password">* Пароль</label>
             <input class="reg__input" id="password" name="password" type="password" placeholder="Введите пароль">
@@ -59,7 +62,7 @@
             <input class="reg__checkbox-input" id="checkbox" type="checkbox" value="true">
             <label class="reg__checkbox-label" for="checkbox">Я согласен получать обновления на почту</label> 
         </div>
-        <button class="reg__button">Регистрация</button>
+        <button type="submit" class="reg__button">Регистрация</button>
     </form> 
   <script type="module" src="script.js"></script>  
 </body>
