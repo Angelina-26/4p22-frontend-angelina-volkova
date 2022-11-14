@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <title>HOMEWORK_12</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@700&family=Roboto&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@700&family=Roboto&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@700&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<header class="header">
+<div class="header__left">
+    <img class="header__logo" src="logo.png">
+    <h1 class="header__heading">PSC Frontend</h1>
+</div>
+<div class="header__right">
+    <a class="header__link--active">Регистрация</a>
+    <a class="header__link">Вход</a>
+</div>
+</header>
+</head>
+
+<body>
+    <form class="reg">
+        <h1 class="reg__heading">Регистрация</h1>
+
+        <div class="reg__inputs">
+            <label class="reg__email" for="email">*Email</label>    
+            <input class="reg__input" id="email" name="email" type="email" placeholder="Введите email">
+            <label class="reg__password" id="password">* Пароль</label>
+            <input class="reg__input" id="password" name="password" type="password" placeholder="Введите пароль">
+            <label class="reg__confirm" for="confirm">* Подтверждение пароля</label>    
+            <input class="reg__input" id="confirm" name="confirm" type="email" placeholder="Подтвердите пароль">
+        </div>
+        <div class="reg__radio">
+            <h4 class="reg__radio-heading">Пол</h4>
+            <input class="reg__radio-input" id="radio-1" type="radio" name="radio" value="1" checked></input>
+            <label class="reg__radio-label" for="radio-1">Мужчина</label>
+        </div>
+        <div class="reg__radio">
+            <input class="reg__radio-input" id="radio-2" type="radio" name="radio" value="2" checked></input>
+            <label class="reg__radio-label" for="radio-2">Женщина</label>
+        </div>
+
+        <div class="reg__about">
+            <label class="reg__radio-heading" for="textarea">О себе</label>
+           <p><textarea class="reg__about-textarea" id="textarea" name="text area" placeholder="Расскажите о себе..."></textarea></p>
+        </div>
+
+        <div class="reg__checkbox">
+            <input class="reg__checkbox-input" id="checkbox" type="checkbox" value="true">
+            <label class="reg__checkbox-label" for="checkbox">Я согласен получать обновления на почту</label> 
+        </div>
+        <button class="reg__button">Регистрация</button>
+    </form> 
+  <script type="module" src="script.js"></script>  
+</body>
+</html>
