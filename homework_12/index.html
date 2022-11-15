@@ -33,17 +33,19 @@
         <h1 class="reg__heading">Регистрация</h1>
 
         <div class="reg__inputs">
-        <div class="labels">
+        <div>
             <label class="reg__email" for="email">* Email</label> 
             <label class="error" for="email">Email введен некорректно</label> 
         </div> 
             <input class="reg__input" id="email" name="email" type="email" placeholder="Введите email">
         
-            <label class="reg__password" id="password">* Пароль</label>
+    
+            <label class="reg__password" for="password">* Пароль</label>
             <label class="error2" for="email">Поле обязательно для заполнения</label>
             <label class="error8" for="email">Пароль должен содержать не менее 8 символов</label>
              
             <input class="reg__input2" id="password" name="password" type="password" placeholder="Введите пароль">
+            
             <label class="reg__confirm" for="confirm">* Подтверждение пароля</label>  
             <label class="error3" for="email">Пароли не совпадают</label>  
             <input class="reg__input3" id="confirm" name="confirm" type="email" placeholder="Подтвердите пароль">
