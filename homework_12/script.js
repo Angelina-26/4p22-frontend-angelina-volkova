@@ -1,30 +1,48 @@
-
+'use strict';
 const input = document.querySelector('.reg__input');
 const btn = document.querySelector('.reg__button');
-const label = document.querySelector('.reg__email');
+const error = document.querySelector('.error');
+const error2 = document.querySelector('.error2');
+const input2 = document.querySelector('.reg__input2');
+const input3 = document.querySelector('.reg__input3');
+const error3 = document.querySelector('.error3');
+const error8 = document.querySelector('error8');
+
 
 btn.addEventListener('click', (e) => {
     e.preventDefault();
     validateEmail(input.value);
     if (validateEmail(input.value)) {
-        input.classList.add('green');
         input.classList.remove('red');
+        error.classList.remove('show');
+        
     } else {
-        input.classList.remove('green');
         input.classList.add('red');
+        error.classList.add('show');  
     }
-})
-
-btn.addEventListener('click' , (e) => {
-    e.preventDefault();
-    validateEmail(label.value);
-    if (validateEmail(label.value)) {
-        label.classList.add('green');
-        label.classList.remove('error');
+   
+    if (String(input2.value) != '') {
+        input2.classList.remove('red');
+        error2.classList.remove('show2');
+        
     } else {
-        label.classList.remove('green');
-        label.classList.add('error');
+        input2.classList.add('red');
+        error2.classList.add('show2');
     }
+
+    if (String(input2.value) != (input3.value)) {
+        input3.classList.add('red');
+        error3.classList.add('show3');
+    } 
+
+    /*if (String(input2.value).length<8) {
+        input2.classList.add('red');
+        input2.classList.add('show8');
+    } else {
+        input2.classList.remove('red');
+        input2.classList.remove('show8');
+
+    }*/
 })
 
 function validateEmail(email) {
@@ -32,4 +50,11 @@ function validateEmail(email) {
     console.log(re.test(String(email).toLowerCase()));
     return re.test(String(email).toLowerCase());
 }
+
+
+
+
+
+
+
 
