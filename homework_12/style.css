@@ -231,7 +231,9 @@ background-color: #787878;
 
 .error {
     display: none;
-    
+    margin-top: -20px;
+    margin-right: 0;
+    position: absolute;
 }
 
 .show {
@@ -251,10 +253,13 @@ background-color: #787878;
     font-size: 16px;
     font-weight: 700;
     margin-left: 260px; 
+    margin-top: -18px;
 }
 
 .error3 {
     display: none;
+    position: absolute;
+    margin-top: -18px;
 }
 
 .show3 {
@@ -267,6 +272,9 @@ background-color: #787878;
 
 .error8 {
     display:none;
+    position: absolute;
+    margin-top: -10px;
+    margin-right: -50px;
 }
 
 .show8 {
@@ -274,7 +282,7 @@ background-color: #787878;
     color:#EE2424;
     font-size: 16px;
     font-weight: 700;
-    margin-left: 0px;  
+    margin-left: 165px;  
 }
 
 
